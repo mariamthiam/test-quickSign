@@ -1,0 +1,12 @@
+● mongodb.service - MongoDB Database
+   Loaded: loaded (/etc/systemd/system/mongodb.service; disabled; vendor preset: enabled)
+   Active: active (running) since mar. 2019-07-09 15:37:56 CEST; 1min 20s ago
+     Docs: https://docs.mongodb.org/manual
+ Main PID: 29800 (mongod)
+    Tasks: 20
+   Memory: 33.8M
+      CPU: 528ms
+   CGroup: /system.slice/mongodb.service
+           └─29800 /usr/bin/mongod --quiet --config /etc/mongod.conf
+
+juil. 09 15:37:56 mariam systemd[1]: Started MongoDB Database.
